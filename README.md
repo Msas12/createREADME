@@ -8,7 +8,7 @@
 
 ## Installation
 Link to website:
-[Weather App Link](https://github.com/Msas12/createREADME)
+[Web App Link](https://github.com/Msas12/createREADME)
 
 ## Usage 
 Use to create a quality README

@@ -66,7 +66,7 @@ ${answers.toc}
 
 ## Installation
 Link to website:
-[Weather App Link](${answers.installation})
+[Web App Link](${answers.installation})
 
 ## Usage 
 ${answers.usage}
