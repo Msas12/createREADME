@@ -1,26 +1,36 @@
-# README Creator
+# Readme Generator 
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## Table of Contents
+- [Description](#description)
+- [Instalation](#instalation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
 ## Description
-Use to create a descriptive Readme
-
-## Table of Contents (Optional)
-none
+Create a professional readme quickly
 
 ## Installation
 Link to website:
 [Web App Link](https://github.com/Msas12/createREADME)
 
 ## Usage 
-Creates a Readme so you can spend more time on coding the app
+Used to create a readme quickly so you can spend more time coding
 
 ## License
-[object Promise]
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Contributing
-Mike Sasiela: m5455y@gmail.com
+Feel free to fork and make better!
 
 ## Tests
-none
+nodeJS
 
 ## Questions?
-Please reach out to any of the contributors with any questions you may have
+Msas12 https://github.com/Msas12
+m5455y@gmail.com
+

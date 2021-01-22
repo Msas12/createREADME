@@ -19,11 +19,6 @@ const promptUser = () => {
     },
     {
         type: 'input',
-        name: 'toc',
-        message: 'Table of Contents:',
-    },
-    {
-        type: 'input',
         name: 'installation',
         message: 'Installation/Link:',
     },
@@ -41,7 +36,7 @@ const promptUser = () => {
     {
         type: 'input',
         name: 'contribute',
-        message: 'contributing:',
+        message: 'Contributing:',
     },
     {
         type: 'input',
@@ -50,20 +45,33 @@ const promptUser = () => {
     },
     {
         type: 'input',
-        name: 'questions',
-        message: 'Questions:',
+        name: 'username',
+        message: 'GitHub UserName:', 
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Email:',
     },
   ]);
 };
 
 const generateReadme = (answers) =>
-(`# ${answers.title}
+(`# ${answers.title} 
+
+${generateLicense(answers)}
+
+## Table of Contents
+- [Description](#description)
+- [Installation](#instalation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
 ## Description
 ${answers.description}
-
-## Table of Contents (Optional)
-${answers.toc}
 
 ## Installation
 Link to website:
@@ -82,23 +90,20 @@ ${answers.contribute}
 ${answers.tests}
 
 ## Questions?
-${answers.questions}`)
+${answers.username} https://github.com/Msas12
+${answers.email}
+
+`)
 
 
-async function generateLicense(answers) {
-
+function generateLicense(answers) {
+    
     if (answers.license == 'MIT') {
-        let license = await readFileAsync('./LicenseFolder/MIT.txt', 'utf8')
-        await writeFileAsync('LICENSE.txt', license)
-        return '[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)'
+        return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
     }else if (answers.license == 'AGPL') {
-        let license = await readFileAsync('./LicenseFolder/AGPL.txt', 'utf8')
-        await writeFileAsync('LICENSE.txt', license)
-        return '[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)'
+        return "[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)"
     } else {
-        let license = await readFileAsync('./LicenseFolder/GPL.txt', 'utf8')
-        await writeFileAsync('LICENSE.txt', license)
-        return '[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)'
+        return "[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)"
     }
 }
 
