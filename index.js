@@ -82,7 +82,7 @@ ${answers.usage}
 
 ## License
 ${generateLicense(answers)}
-- [License](./LICENSE.txt)
+- [License File](./LICENSE.txt)
 
 ## Contributing
 ${answers.contribute}
