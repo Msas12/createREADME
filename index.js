@@ -63,12 +63,19 @@ ${generateLicense(answers)}
 
 ## Table of Contents
 - [Description](#description)
+- [Mock Up](#mock-up)
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)
+
+## Mock-Up
+
+The following animation demonstrates the application functionality:
+
+![GIF Of Functionality](./INSERT GIF HERE)
 
 ## Description
 ${answers.description}

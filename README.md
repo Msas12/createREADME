@@ -11,6 +11,12 @@
 - [Tests](#tests)
 - [Questions](#questions)
 
+## Mock-Up
+
+The following animation demonstrates the application functionality:
+
+![GIF Of Functionality](./readme.gif)
+
 ## Description
 Create a professional Readme Generator
 
