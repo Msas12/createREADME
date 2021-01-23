@@ -4,6 +4,7 @@
 
 ## Table of Contents
 - [Description](#description)
+- [Mock Up](#mock-up)
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
