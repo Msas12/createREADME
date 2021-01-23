@@ -63,7 +63,7 @@ ${generateLicense(answers)}
 
 ## Table of Contents
 - [Description](#description)
-- [Installation](#instalation)
+- [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
 - [Contributing](#contributing)
@@ -82,6 +82,7 @@ ${answers.usage}
 
 ## License
 ${generateLicense(answers)}
+- [License](./LICENSE.txt)
 
 ## Contributing
 ${answers.contribute}
@@ -90,8 +91,8 @@ ${answers.contribute}
 ${answers.tests}
 
 ## Questions?
-${answers.username} https://github.com/Msas12
-${answers.email}
+- ${answers.username}: https://github.com/Msas12
+- ${answers.email}
 
 `)
 
@@ -114,10 +115,19 @@ const init = async () => {
   console.log('Hi! Ready to create a README?');
   try {
     const answers = await promptUser();
-
     const readme = generateReadme(answers);
-
     await writeFileAsync('README.md', readme);
+
+    if (answers.license == 'MIT') {
+        let license = await readFileAsync('./LicenseFolder/MIT.txt', 'utf8')
+        await writeFileAsync('LICENSE.txt', license)
+    }else if (answers.license == 'AGPL') {
+        let license = await readFileAsync('./LicenseFolder/AGPL.txt', 'utf8')
+        await writeFileAsync('LICENSE.txt', license)
+    } else {
+        let license = await readFileAsync('./LicenseFolder/GPL.txt', 'utf8')
+        await writeFileAsync('LICENSE.txt', license)
+    }
 
     console.log('Successfully wrote to README.md');
   } catch (err) {

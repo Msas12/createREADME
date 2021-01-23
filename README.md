@@ -4,7 +4,7 @@
 
 ## Table of Contents
 - [Description](#description)
-- [Instalation](#instalation)
+- [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
 - [Contributing](#contributing)
@@ -12,25 +12,26 @@
 - [Questions](#questions)
 
 ## Description
-Create a professional readme quickly
+Create a professional Readme Generator
 
 ## Installation
 Link to website:
 [Web App Link](https://github.com/Msas12/createREADME)
 
 ## Usage 
-Used to create a readme quickly so you can spend more time coding
+Use to create a professional readme in no time at all so you can spend more time coding the actual project
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+- [License](./LICENSE.txt)
 
 ## Contributing
-Feel free to fork and make better!
+Feel free to fork and improve!
 
 ## Tests
-nodeJS
+NodeJS
 
 ## Questions?
-Msas12 https://github.com/Msas12
-m5455y@gmail.com
+- Msas12: https://github.com/Msas12
+- m5455y@gmail.com
 
