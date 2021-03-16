@@ -81,8 +81,7 @@ The following animation demonstrates the application functionality:
 ${answers.description}
 
 ## Installation
-Link to website:
-[Web App Link](${answers.installation})
+For link to Web App click [here](${answers.installation})
 
 ## Usage 
 ${answers.usage}

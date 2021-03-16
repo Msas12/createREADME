@@ -1,4 +1,4 @@
-# Readme Generator 
+# Burgers! 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -16,17 +16,17 @@
 
 The following animation demonstrates the application functionality:
 
-![GIF Of Functionality](./readme.gif)
+![GIF Of Functionality](./INSERT GIF HERE)
 
 ## Description
-Create a professional Readme Generator
+
 
 ## Installation
 Link to website:
-[Web App Link](https://github.com/Msas12/createREADME)
+[Web App Link]()
 
 ## Usage 
-Use to create a professional Readme in no time at all so that you can spend more time coding your actual project
+
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
